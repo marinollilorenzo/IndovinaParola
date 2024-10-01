@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="450px"
+        android:layout_height="150px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="600px"
+        android:text="INDOVINA"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:id="@+id/errori"
+        android:layout_width="150px"
+        android:layout_height="100px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60px"
+        android:text="TextView"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/indovina"
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400px"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/win"
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1200px"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="450px"
+        android:layout_height="150px"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50px"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="343dp" />
+</RelativeLayout>
